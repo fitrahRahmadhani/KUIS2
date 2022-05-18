@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap">
+    <link rel="stylesheet" href="style_logreg.css">
+    <title>Tambah Data</title>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <div id="title">
+                <h1>Tambah Data</h1>
+            </div>
+            <form action="insertProcess.php" method="post" enctype="multipart/form-data">
+                <div class="form_field">
+                    <input type="text" name="idbuku" placeholder="Masukkan ID buku">
+                </div>
+                <div class="form_field">
+                    <input type="text" name="judul" placeholder="Masukkan judul buku">
+                </div>
+                <div class="form_field">
+                    <input type="text" name="pengarang" placeholder="Masukkan nama pengarang">
+                </div>
+                <div class="form_field">
+                    <input type="text" name="penerbit" placeholder="Masukkan penerbit">
+                </div>
+                <div class="form_field">
+                    <input type="text" name="deskripsi" placeholder="Masukkan deskripsi">
+                </div>
+                <div class="file">
+                    <p>Tambahkan gambar</p>
+                    <input type="file" name="foto">
+                </div>
+                <div class="button">
+                    <button type="submit">Tambah</button>
+                </div>
+            </form>
+            <div id="cp">
+                <p>@Fitrah Rahmadhani Ahmad</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
